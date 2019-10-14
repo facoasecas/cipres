@@ -113,3 +113,12 @@ section#chiloe {
 .card {
     border: none;
 }
+
+.nav .nav-link {
+  border-bottom: .25rem solid transparent;
+}
+
+.nav .active {
+  color: #fff;
+  border-bottom-color: #000;
+}
