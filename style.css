@@ -47,12 +47,6 @@ header.masthead {
   min-height: 100vh;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: url("img/bg-header.png") no-repeat bottom fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -ms-background-size: cover;
-  background-size: cover;
 }
 
 section{
@@ -78,6 +72,15 @@ section.contact-section{
 
 }
 
+section#chiloe{
+  background: linear-gradient(rgb(240, 240, 235,1), rgb(240, 240, 235,.8)), url("img/bg-chilote.png") no-repeat bottom;
+  -webkit-background-size: 100% auto;
+  -moz-background-size:  100% auto;
+  -o-background-size:  100% auto;
+  -ms-background-size:  100% auto;
+  background-size:  100% auto;
+padding-bottom: 10rem;
+}
 
 
 .featured-text {
