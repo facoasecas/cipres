@@ -1,59 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,700,700i&display=swap');
-
-
-html, body{
-	height:100%;
-	width:100%;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 300;
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 300;
 }
 
-h1,h2,h3,h4,h5,h6{
-  font-weight: 700;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
 }
 
-h4{
-  text-transform: lowercase;
-  font-variant: small-caps;
-  font-size:1.25rem;
-  letter-spacing: 0.1rem;  
+h5 {
+    text-transform: lowercase;
+    font-variant: small-caps;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
 }
 
-h5{
-  font-size:.9rem;
+h6 {
+    font-size: .9rem;
 }
 
-a{
-  color:rgba(0, 73, 112,0.75);
+hr.divider {
+    border: 0.2rem solid rgb(0, 73, 112);
+    max-width: 3rem;
 }
 
-a:hover{
-  color:rgba(0, 73, 112,1);
+a {
+    color: rgba(0, 73, 112, 0.75);
 }
 
-.text-white-50 a{
-  color:rgba(123, 180, 217,0.75);  
+a:hover {
+    color: rgba(0, 73, 112, 1);
 }
 
-.text-white-50 a:hover{
-  color:rgba(123, 180, 217,1);  
+.text-white-50 a {
+    color: rgba(123, 180, 217, 0.75);
+}
+
+.text-white-50 a:hover {
+    color: rgba(123, 180, 217, 1);
 }
 
 header.masthead {
-  background:silver;
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 100vh;
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
+    background: silver;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
 }
 
-section{
-	padding:6rem 0;
+section {
+    padding: 7.5rem 0;
 }
 
-section#about{
+section#about {
     background: url("img/bg-paisaje.jpg") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -62,53 +71,45 @@ section#about{
     background-size: cover;
 }
 
-section.contact-section{
+section#conoce {
     background: url("img/bg-abajo.jpg") no-repeat bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-
 }
 
-section#chiloe{
-  background: linear-gradient(rgb(240, 240, 235,1), rgb(240, 240, 235,.8)), url("img/bg-chilote.png") no-repeat bottom;
-  -webkit-background-size: 100% auto;
-  -moz-background-size:  100% auto;
-  -o-background-size:  100% auto;
-  -ms-background-size:  100% auto;
-  background-size:  100% auto;
-padding-bottom: 10rem;
+section#chiloe {
+    background: linear-gradient(rgb(240, 240, 235, 1), rgb(240, 240, 235, .8)), url("img/bg-chilote.png") no-repeat bottom;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -ms-background-size: 100% auto;
+    background-size: 100% auto;
+    padding-bottom: 10rem;
 }
-
 
 .featured-text {
     padding: 2rem;
 }
 
 @media (min-width: 992px) {
-  .featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid rgb(0, 73, 112);
-  }
-
-  .featured-us {
-    padding: 0 2rem 0 0;
-    border-right: 0.5rem solid rgb(0, 73, 112);
-  }
+    .featured-text {
+        padding: 0 0 0 2rem;
+        border-left: 0.5rem solid rgb(0, 73, 112);
+    }
+    .featured-us {
+        padding: 0 2rem 0 0;
+        border-right: 0.5rem solid rgb(0, 73, 112);
+    }
 }
 
-hr.divider{
-  border:0.2rem solid rgb(0, 73, 112);
-  max-width: 7.5rem;
+.lead {
+    max-width: 80%;
+    margin: auto auto 5rem auto;
 }
 
-.lead{
-  max-width: 80%;
-  margin:auto auto 5rem auto;
-}
-
-.card{
-  border:none;
+.card {
+    border: none;
 }
