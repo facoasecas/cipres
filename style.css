@@ -16,6 +16,10 @@ h6 {
     font-weight: 700;
 }
 
+h3{
+    color:rgb(0, 37, 54);
+}
+
 h5 {
     text-transform: lowercase;
     font-variant: small-caps;
@@ -40,6 +44,10 @@ a:hover {
     color: rgba(0, 73, 112, 1);
 }
 
+nav{
+    font-size:.75rem;
+}
+
 .text-white-50 a {
     color: rgba(123, 180, 217, 0.75);
 }
@@ -49,13 +57,12 @@ a:hover {
 }
 
 header.masthead {
-    background: silver;
+    background: RGB(224, 220, 234);
     position: relative;
     width: 100%;
     height: auto;
-    min-height: 100vh;
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 72px);
+    padding-top: 9rem;
+    padding-bottom: calc(9rem - 72px);
 }
 
 section {
@@ -63,7 +70,7 @@ section {
 }
 
 section#about {
-    background: url("img/bg-paisaje.jpg") no-repeat center fixed;
+    background: linear-gradient(rgba(224, 220, 234,1),rgba(224, 220, 234,.1)), url("img/bg-masthead.jpg") no-repeat top center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,14 +78,6 @@ section#about {
     background-size: cover;
 }
 
-section#conoce {
-    background: url("img/bg-abajo.jpg") no-repeat bottom fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-size: cover;
-}
 
 section#chiloe {
     background: linear-gradient(rgb(240, 240, 235, 1), rgb(240, 240, 235, .8)), url("img/bg-chilote.png") no-repeat bottom;
@@ -88,6 +87,24 @@ section#chiloe {
     -ms-background-size: 100% auto;
     background-size: 100% auto;
     padding-bottom: 10rem;
+}
+
+section#conocenos {
+    background: url("img/bg-paisaje.jpg") no-repeat bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+section#contactanos {
+    background: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.5)), url("img/bg-contacto.jpg") no-repeat bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 
 .featured-text {
@@ -121,4 +138,8 @@ section#chiloe {
 .nav .active {
   color: #fff;
   border-bottom-color: #000;
+}
+
+.bg-light{
+    background:RGB(224, 220, 234);
 }
